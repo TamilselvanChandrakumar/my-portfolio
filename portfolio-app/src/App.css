@@ -6,6 +6,10 @@
   padding: 0;
 }
 :root {
+  --background-navbar-color: rgb(39, 39, 39);
+  --background-primary-color: #ffbf00;
+  --background-seconday-color: crimson;
+  --font-primary-color: white;
 }
 html {
   font-family: "Poppins", "Roboto", "sans-serif", "Times New Roman", Times,
