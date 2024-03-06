@@ -17,7 +17,6 @@ html {
   font-family: "Poppins", "Roboto", "sans-serif", "Times New Roman", Times,
     serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 .btn-wrapper {
   padding: 0.5rem;
