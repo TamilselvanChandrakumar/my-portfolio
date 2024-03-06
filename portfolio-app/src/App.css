@@ -20,10 +20,24 @@ html {
 .btn-wrapper {
   padding: 0.5rem;
   width: 7rem;
-  color: var(--font-dark-color);
   font-size: 1rem;
   font-weight: 500;
   border-radius: 7px;
   background-color: var(--background-seconday-color);
   border: none;
+  cursor: pointer;
+}
+.btn-wrapper a {
+  color: var(--font-dark-color);
+}
+.btn-wrapper a:hover {
+  color: crimson;
+}
+.btn-wrapper:hover {
+  border: 1px solid crimson;
+  color: var(--font-primary-color);
+  background: transparent;
+}
+a {
+  text-decoration: none;
 }

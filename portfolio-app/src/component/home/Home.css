@@ -5,6 +5,12 @@
 
 .home-container {
   padding: 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-col {
+  width: calc(100% / 2 - 1rem);
 }
 .home-col h3 {
   font-size: 2rem;
@@ -25,4 +31,18 @@
   font-size: 2.3rem;
   color: var(--font-primary-color);
   font-weight: 700;
+}
+.home-image img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 700px) {
+  .home-container {
+    padding: 0 1.5rem 0;
+    flex-direction: column-reverse;
+  }
+  .home-col {
+    width: 100%;
+  }
 }

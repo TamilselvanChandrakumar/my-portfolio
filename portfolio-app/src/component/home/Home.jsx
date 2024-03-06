@@ -1,5 +1,6 @@
 import React from "react";
 import "../home/Home.css";
+import homeimg from "../../assets/home/homeimg.jpeg";
 export const Home = () => {
   return (
     <>
@@ -11,7 +12,15 @@ export const Home = () => {
             <h2>
               And I'm a <span> Web Developer</span>
             </h2>
-            <button className="btn-wrapper">Hire Me</button>
+            <button className="btn-wrapper">
+              {" "}
+              <a href="">Hire Me</a>
+            </button>
+          </div>
+          <div className="home-col">
+            <div className="home-image">
+              <img src={homeimg} alt=""></img>
+            </div>
           </div>
         </div>
       </section>
