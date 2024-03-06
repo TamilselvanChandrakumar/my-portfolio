@@ -32,6 +32,18 @@
   font-size: 2.3rem;
   color: var(--font-primary-color);
   font-weight: 700;
+  animation: webdev 1s linear infinite;
+}
+@keyframes webdev {
+  100% {
+    transform: translateX(200px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  25% {
+    transform: translateX(100px);
+  }
 }
 .home-image img {
   width: 300px;

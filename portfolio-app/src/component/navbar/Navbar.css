@@ -5,6 +5,10 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--background-navbar-color);
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+  box-shadow: 0 6px 8px 0 rgb(32, 31, 31), 0 8px 20px 0 rgb(32, 31, 31);
 }
 .navbar-text h1 {
   color: var(--font-primary-color);
@@ -12,6 +16,8 @@
 .navbar-links li {
   display: inline-block;
   padding: 1rem;
+}
+.navbar-links li a {
   color: var(--font-primary-color);
   font-weight: 700;
 }
