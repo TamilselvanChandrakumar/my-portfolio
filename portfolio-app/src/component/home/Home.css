@@ -1,10 +1,11 @@
 #home {
   background-color: var(--background-primary-color);
-  width: 100%;
 }
 
 .home-container {
   padding: 0 3rem 0;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
