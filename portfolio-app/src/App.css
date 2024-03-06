@@ -10,8 +10,20 @@
   --background-primary-color: #ffbf00;
   --background-seconday-color: crimson;
   --font-primary-color: crimson;
+  --font-seconday-color: white;
+  --font-dark-color: black;
 }
 html {
   font-family: "Poppins", "Roboto", "sans-serif", "Times New Roman", Times,
     serif;
+}
+.btn-wrapper {
+  padding: 0.5rem;
+  width: 7rem;
+  color: var(--font-dark-color);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 7px;
+  background-color: var(--background-seconday-color);
+  border: none;
 }
