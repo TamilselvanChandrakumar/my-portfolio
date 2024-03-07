@@ -20,6 +20,9 @@
   font-size: 3rem;
   color: var(--font-seconday-color);
   font-weight: 800;
+  background: linear-gradient(#20948b, #6ab187);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home-col1 h2 {
   margin-bottom: 1rem;
@@ -34,7 +37,10 @@
   animation: webdev 1s linear infinite;
 }
 .hireme-btn {
-  padding: 0.5rem;
+  padding: 0.3rem;
+  display: inline-block;
+  width: 5rem;
+  text-align: center;
   background-color: crimson;
   text-decoration: none;
   color: var(--font-dark-color);
