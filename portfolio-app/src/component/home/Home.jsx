@@ -6,18 +6,17 @@ export const Home = () => {
     <>
       <section id="home">
         <div className="home-container">
-          <div className="home-col">
+          <div className="home-col1">
             <h3>Hello,my name is </h3>
             <h1>Tamilselvan C</h1>
             <h2>
               And I'm a <span> Web Developer</span>
-            </h2>
-            <button className="btn-wrapper">
-              {" "}
-              <a href="">Hire Me</a>
-            </button>
+            </h2>{" "}
+            <a className="hireme-btn" href="mailto:tamilbin001@gmail.com">
+              Hire Me
+            </a>
           </div>
-          <div className="home-col">
+          <div className="home-col2">
             <div className="home-image">
               <img src={homeimg} alt=""></img>
             </div>
