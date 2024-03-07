@@ -24,3 +24,32 @@
   color: var(--font-primary-color);
   font-weight: 700;
 }
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navbar-links-container {
+    position: absolute;
+    top: 0;
+    transform: translateY(-500px);
+  }
+  .active {
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transform: translateY(80px);
+    transition: all 1s ease-in-out;
+    background-color: cadetblue;
+  }
+  .navbar-links li {
+    display: block;
+    text-align: right;
+    padding: 2rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

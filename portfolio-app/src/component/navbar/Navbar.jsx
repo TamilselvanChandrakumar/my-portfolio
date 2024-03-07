@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../navbar/Navbar.css";
+import { FaBars } from "react-icons/fa6";
 const Navbar = () => {
+  const [sidenav, setSideNav] = useState(false);
+  const handleSidenav = () => {
+    setSideNav(!sidenav);
+    console.log("clicked");
+  };
   return (
     <>
       <div className="navbar-container">
@@ -9,7 +15,10 @@ const Navbar = () => {
             Myfortpo<span>lio</span>
           </h1>
         </div>
-        <nav className="navbar-links-container">
+        <div className="hamburger" onClick={handleSidenav}>
+          <FaBars></FaBars>
+        </div>
+        <nav className={`navbar-links-container ${sidenav ? "active" : null}`}>
           <ul className="navbar-links">
             <li>
               <a href="#home">Home</a>
