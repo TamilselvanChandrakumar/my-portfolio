@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="navbar-text">
           <h1>
             <FaDharmachakra color="black" size={30}></FaDharmachakra> Myfortpo
-            <span>lio</span>
+            <span>lio.</span>
           </h1>
         </div>
         <div className="hamburger" onClick={handleSidenav}>
@@ -27,23 +27,23 @@ const Navbar = () => {
         </div>
         <nav className={`navbar-links-container ${sidenav ? "active" : null}`}>
           <ul className="navbar-links">
-            <li>
+            <li onClick={() => setSideNav(false)}>
               <FaHouseUser></FaHouseUser> <a href="#home">Home</a>
             </li>
-            <li>
+            <li onClick={() => setSideNav(false)}>
               <FaCircleUser></FaCircleUser>
               <a href="#about">About</a>
             </li>
-            <li>
+            <li onClick={() => setSideNav(false)}>
               {" "}
               <FaGraduationCap></FaGraduationCap> <a href="#skills">Skills</a>
             </li>
-            <li>
+            <li onClick={() => setSideNav(false)}>
               {" "}
               <FaRegFolderOpen></FaRegFolderOpen>
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li onClick={() => setSideNav(false)}>
               <FaPhone></FaPhone>
               <a href="#contact">Contact</a>
             </li>
