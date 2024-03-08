@@ -12,6 +12,8 @@
 }
 .navbar-text h1 {
   color: var(--font-primary-color);
+  display: flex;
+  align-items: center;
 }
 .navbar-text h1 span {
   color: var(--font-dark-color);
@@ -22,6 +24,7 @@
 }
 .navbar-links li a {
   color: var(--font-primary-color);
+  font-size: 1.1rem;
   font-weight: 700;
   position: relative;
 }
