@@ -7,6 +7,7 @@
 }
 :root {
   --background-navbar-color: #edf4f2;
+  --background-sidebar-color: #a7beae;
   --background-primary-color: #31473a;
   --background-secondary-color: #2a3132;
   --font-primary-color: crimson;
@@ -17,4 +18,7 @@ html {
   font-family: "Poppins", "Roboto", "sans-serif", "Times New Roman", Times,
     serif;
   scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
 }
