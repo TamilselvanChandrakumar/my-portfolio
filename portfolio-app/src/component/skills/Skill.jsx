@@ -1,11 +1,17 @@
 import React from "react";
 import "../skills/Skill.css";
+import html from "../../assets/skills/html.png";
+import css from "../../assets/skills/css.png";
+import js from "../../assets/skills/js.png";
+import react from "../../assets/skills/react.png";
+import express from "../../assets/skills/expressjs.png";
+import node from "../../assets/skills/nodejs.png";
 const Skill = () => {
   return (
     <section id="skills">
       <div className="cardContainer">
         <div className="card">
-          <img src="" alt="htmlimg"></img>
+          <img src={html} alt="htmlimg"></img>
           <h2>HTML5</h2>
           <p>
             HTML stands for Hyper Text Markup Language. HTML is the standard
@@ -14,7 +20,7 @@ const Skill = () => {
           </p>
         </div>
         <div className="card">
-          <img src="" alt="cssimg"></img>
+          <img src={css} alt="cssimg"></img>
           <h2>CSS3</h2>
           <p>
             CSS stands for Cascading Style Sheets. It is a style sheet language
@@ -23,7 +29,7 @@ const Skill = () => {
           </p>
         </div>
         <div className="card">
-          <img src="" alt="jsimg"></img>
+          <img src={js} alt="jsimg"></img>
           <h2>JAVASCRIPT</h2>
           <p>
             JavaScript is a scripting language that enables you to create
@@ -32,7 +38,7 @@ const Skill = () => {
           </p>
         </div>
         <div className="card">
-          <img src="" alt="reactimg"></img>
+          <img src={react} alt="reactimg"></img>
           <h2>React</h2>
           <p>
             ReactJS is a declarative, efficient, and flexible JavaScript library
@@ -42,7 +48,7 @@ const Skill = () => {
           </p>
         </div>
         <div className="card">
-          <img src="" alt="nodeimg"></img>
+          <img src={node} alt="nodeimg"></img>
           <h2>Node js </h2>
           <p>
             As an asynchronous event-driven JavaScript runtime, Node.js is
@@ -51,7 +57,7 @@ const Skill = () => {
           </p>
         </div>
         <div className="card">
-          <img src="" alt="expressimg"></img>
+          <img src={express} alt="expressimg"></img>
           <h2>Express js</h2>
           <p>
             Express is a node js web application framework that provides broad

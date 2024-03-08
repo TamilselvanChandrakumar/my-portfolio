@@ -6,11 +6,12 @@
 .cardContainer {
   padding: 2rem;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
 .card {
-  border: 1px solid crimson;
+  border: 3px solid black;
   border-radius: 10px;
   padding: 1rem;
   height: 20rem;
@@ -18,25 +19,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--background-secondary-color);
+  background-color: var(--background-white-color);
 }
-img {
+.card img {
   width: 100px;
   height: 100px;
+  border-radius: 10px;
 }
-/* screen larger than 600px 2 coloumns */
-@media (min-width: 600px) {
+.card h2 {
+  color: var(--font-primary-color);
+}
+.card p {
+  font-weight: 500;
+}
+/* sreen larger than 900px 2 coloumn*/
+@media (max-width: 900px) {
   .cardContainer {
     padding: 1rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px 20px;
   }
 }
-/* sreen larger than 900px 3 coloumn*/
-@media (min-width: 900px) {
+/* screen larger than 600px 1 coloumns */
+@media (max-width: 600px) {
   .cardContainer {
     padding: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px 20px;
+  }
+  .card img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .card img {
+    width: 50px;
+    height: 50px;
+  }
+  .card p {
+    overflow: hidden;
   }
 }
