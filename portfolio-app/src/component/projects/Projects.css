@@ -44,7 +44,7 @@
   font-size: 1rem;
   font-weight: 700;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   #projects {
     width: 100%;
     height: auto;
@@ -52,8 +52,11 @@
   .project-continer {
     grid-template-columns: 1fr;
   }
+  .project-content-container {
+    align-items: center;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .project-continer {
     padding: 0 1rem 0;
   }
