@@ -1,0 +1,24 @@
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-primary-color);
+  padding-top: 100px;
+}
+.contact-container {
+  padding: 0 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact-rightcol {
+  width: 100%;
+}
+.contact-rightcol input {
+  width: 100%;
+}
+.name-input {
+  display: flex;
+  gap: 1rem;
+}
+.contact-rightcol textarea {
+  width: 100%;
+}
