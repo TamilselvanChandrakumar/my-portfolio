@@ -1,9 +1,9 @@
 import React from "react";
 import "../projects/Projects.css";
-import projectimg1 from "../../assets/projects/projectimg1.png";
-import projectimg2 from "../../assets/projects/projectimg2.png";
-import projectimg3 from "../../assets/projects/projectimg3.png";
-import projectimg4 from "../../assets/projects/projectimg4.png";
+import projectimg1 from "../../assets/projects/projectimg1.jpeg";
+import projectimg2 from "../../assets/projects/projectimg2.jpeg";
+import projectimg3 from "../../assets/projects/projectimg3.jpeg";
+import projectimg4 from "../../assets/projects/projectimg4.jpeg";
 
 const Projects = () => {
   return (
@@ -41,7 +41,7 @@ const Projects = () => {
                 <p>
                   <span>Abut Project :</span>Created a Enterprise Business
                   website for organisation. This websites contains the various
-                  routes such as about the organisation,services,blog and
+                  routes such as about the organisation ,services,blog and
                   contact us pages.Fully fetaured Enterprise Business website
                   for organisation.
                 </p>
@@ -67,7 +67,7 @@ const Projects = () => {
                   <span>Abut Project :</span>This is a Social Media Post
                   generator website.Here we can add the various fields of social
                   media contents. All the information are stored in the local
-                  storage of the website. We can update and create the post
+                  storage of the website.We can update and create the post
                   generator are stored in the browser storage.
                 </p>
                 <h4>
@@ -90,7 +90,7 @@ const Projects = () => {
               <div className="project-content">
                 <p>
                   <span>Abut Project :</span>Add to cart project.Whatever
-                  project we want we can add the project in the add to cart. The
+                  project we want we can add the project in the add to cart.The
                   add to cart contains selected projects with price and count of
                   the project.We can add multiple products.Products details are
                   stored using JSON server.
