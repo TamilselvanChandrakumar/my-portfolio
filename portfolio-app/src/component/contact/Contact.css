@@ -8,17 +8,22 @@
   padding: 0 3rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  border: 1px solid black;
 }
 .contact-rightcol {
   width: 100%;
+  border: 1px solid blue;
 }
-.contact-rightcol input {
+
+.form-container input {
   width: 100%;
+  box-sizing: border-box;
 }
 .name-input {
   display: flex;
   gap: 1rem;
 }
-.contact-rightcol textarea {
+.form-container textarea {
   width: 100%;
+  box-sizing: border-box;
 }
