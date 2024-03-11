@@ -9,9 +9,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  border: 1px solid black;
 }
-/*  */
+/* contac left col */
 .contact-leftcol {
   display: flex;
   flex-direction: column;
@@ -32,6 +31,11 @@
   font-size: 1rem;
   font-weight: 300;
 }
+.getintouch-detail h3 {
+  color: var(--font-dark-color);
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 .getintouch-detail {
   display: flex;
@@ -40,10 +44,9 @@
 .getintouch-icon {
   align-self: center;
 }
-/*  */
+/* contact right col */
 .contact-rightcol {
   width: 100%;
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -114,8 +117,14 @@
   .contact-leftcol {
     gap: 1rem;
   }
+  .contact-leftcol h1 {
+    text-align: center;
+  }
   .contact-rightcol {
     gap: 1rem;
+  }
+  .contact-rightcol h1 {
+    text-align: center;
   }
   .contact-container {
     padding: 0 1rem 0;

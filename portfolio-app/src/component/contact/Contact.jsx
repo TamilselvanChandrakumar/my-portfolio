@@ -5,6 +5,9 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa6";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <section id="contact">
@@ -49,7 +52,7 @@ const Contact = () => {
           </div>
           <div className="contact-rightcol">
             <h1>Message Me</h1>
-            <form className="form-container">
+            <form className="form-container" onSubmit={handleSubmit}>
               <div className="name-input">
                 <input type="text" placeholder="Name"></input>
                 <input type="email" placeholder="Email"></input>
