@@ -17,31 +17,33 @@ const Contact = () => {
               solutions. Looking to start the career as an entry-level web
               developer with a reputed firm driven by technology.
             </p>
-            <div className="getintouch-detail">
-              <div className="getintouch-icon">
-                <FaUser></FaUser>
+            <div className="getin-touch-detail-container">
+              <div className="getintouch-detail">
+                <div className="getintouch-icon">
+                  <FaUser></FaUser>
+                </div>
+                <div>
+                  <h3>Name</h3>
+                  <p>Tamilselvan</p>
+                </div>
               </div>
-              <div>
-                <h3>Name</h3>
-                <p>Tamilselvan</p>
+              <div className="getintouch-detail">
+                <div className="getintouch-icon">
+                  <FaLocationDot></FaLocationDot>
+                </div>
+                <div>
+                  <h3>Address</h3>
+                  <p>The Nilgiris,Tamilnadu</p>
+                </div>
               </div>
-            </div>
-            <div className="getintouch-detail">
-              <div className="getintouch-icon">
-                <FaLocationDot></FaLocationDot>
-              </div>
-              <div>
-                <h3>Address</h3>
-                <p>The Nilgiris,Tamilnadu</p>
-              </div>
-            </div>
-            <div className="getintouch-detail">
-              <div className="getintouch-icon">
-                <FaEnvelope></FaEnvelope>
-              </div>
-              <div>
-                <h3>Email</h3>
-                <p>tamilbin001@gmail.com</p>
+              <div className="getintouch-detail">
+                <div className="getintouch-icon">
+                  <FaEnvelope></FaEnvelope>
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <p>tamilbin001@gmail.com</p>
+                </div>
               </div>
             </div>
           </div>
