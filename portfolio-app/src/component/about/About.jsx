@@ -6,11 +6,9 @@ const About = () => {
       <section id="about">
         <div className="about-container">
           <div className="aboutcontent">
-            <h2 className="title">
-              I'm Tamilselvan and I'm a{" "}
-              <span className="webdev">Webdeveloper</span>{" "}
+            <h2>
+              I'm Tamilselvan and I'm a <span>Webdeveloper</span>{" "}
             </h2>
-            <br></br>
             <p className="detail">
               I'm a fresher.I finished my BE-CSE in Shree Venkateshwara Hi-Tech
               Engineering college-Erode.I completed my internship (MERN stack
@@ -19,8 +17,7 @@ const About = () => {
               and work with the team efficiently.I'm a Hard working person and
               ability to work under pressure..
             </p>
-            <br></br>
-            <button className="cvbtn">Download CV</button>
+            <button>Download CV</button>
           </div>
         </div>
       </section>
