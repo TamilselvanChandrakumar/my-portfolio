@@ -7,6 +7,11 @@
 .about-container {
   padding: 0 3rem 0;
 }
+.aboutcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .aboutcontent h2 {
   color: var(--font-primary-color);
   font-size: 2rem;
@@ -23,6 +28,7 @@
   font-weight: 500;
 }
 .aboutcontent button {
+  width: 150px;
   padding: 0.5rem;
   border-radius: 5px;
   background-color: crimson;
@@ -35,4 +41,10 @@
   border: 2px solid crimson;
   background-color: transparent;
   color: var(--font-primary-color);
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    padding: 0 1rem 0;
+  }
 }
