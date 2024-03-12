@@ -7,8 +7,10 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-link">
-        <h3>Follow Me</h3>
         <div>
+          <h3>Follow Me</h3>
+        </div>
+        <div className="social-links">
           <a href="">
             <FaInstagram size={25} color="white"></FaInstagram>
           </a>

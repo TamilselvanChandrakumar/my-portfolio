@@ -14,3 +14,6 @@
   font-weight: 600;
   font-size: 1rem;
 }
+.social-links a {
+  padding-right: 0.3rem;
+}
