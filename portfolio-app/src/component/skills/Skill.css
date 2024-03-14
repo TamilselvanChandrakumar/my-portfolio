@@ -1,10 +1,15 @@
 #skills {
+  width: 100%;
   background-color: var(--background-primary-color);
-  padding-top: 100px;
 }
-
+.skills-title h1 {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--font-seconday-color);
+}
 .cardContainer {
-  padding: 2rem;
+  padding: 0 3rem 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;

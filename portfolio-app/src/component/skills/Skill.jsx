@@ -9,6 +9,9 @@ import node from "../../assets/skills/nodejs.png";
 const Skill = () => {
   return (
     <section id="skills">
+      <div className="skills-title">
+        <h1>Skills</h1>
+      </div>
       <div className="cardContainer">
         <div className="card">
           <img src={html} alt="htmlimg"></img>

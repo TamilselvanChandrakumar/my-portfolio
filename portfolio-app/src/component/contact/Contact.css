@@ -1,11 +1,15 @@
 #contact {
   width: 100%;
-  height: 100vh;
   background-color: var(--background-primary-color);
-  padding-top: 100px;
+}
+.contact-title h1 {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--font-seconday-color);
 }
 .contact-container {
-  padding: 0 3rem 0;
+  padding: 0 3rem 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
