@@ -9,6 +9,9 @@ const Projects = () => {
   return (
     <>
       <section id="projects">
+        <div className="project-title">
+          <h1>Projects</h1>
+        </div>
         <div className="project-continer">
           <div className="project-card">
             <div className="project-img">
