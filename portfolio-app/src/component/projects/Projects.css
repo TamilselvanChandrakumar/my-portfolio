@@ -6,10 +6,12 @@
   padding: 1rem;
   font-size: 2rem;
   text-align: center;
-  color: var(--font-seconday-color);
+  background: linear-gradient(#20948b, #6ab187);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .project-continer {
-  padding: 0 3rem 2em;
+  padding: 0 3rem 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -65,7 +67,7 @@
 }
 @media (max-width: 750px) {
   .project-continer {
-    padding: 0 1rem 0;
+    padding: 0 1rem 1rem;
   }
   .project-card {
     padding: 1.5rem;

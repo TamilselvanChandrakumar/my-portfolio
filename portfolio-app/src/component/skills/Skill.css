@@ -6,7 +6,9 @@
   padding: 1rem;
   font-size: 2rem;
   text-align: center;
-  color: var(--font-seconday-color);
+  background: linear-gradient(#20948b, #6ab187);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .cardContainer {
   padding: 0 3rem 2rem;
