@@ -13,6 +13,9 @@
 }
 .about-container {
   padding: 0 3rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 .aboutcontent {
   display: flex;
@@ -49,9 +52,33 @@
   background-color: transparent;
   color: var(--font-primary-color);
 }
+.about-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column-reverse;
+  }
+  .about-img img {
+    width: 250px;
+    height: 250px;
+  }
+}
 
 @media (max-width: 600px) {
+  #about {
+    height: 100%;
+  }
   .about-container {
-    padding: 0 1rem 0;
+    padding: 0 1rem 1rem;
+  }
+  .about-img img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  .aboutcontent button {
+    margin: auto;
   }
 }

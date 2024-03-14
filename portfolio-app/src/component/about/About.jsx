@@ -1,5 +1,6 @@
 import React from "react";
 import "../about/About.css";
+import aboutimg from "../../assets/home/homeimg.jpeg";
 const About = () => {
   return (
     <>
@@ -22,6 +23,9 @@ const About = () => {
               technology.
             </p>
             <button>Download CV</button>
+          </div>
+          <div className="about-img">
+            <img src={aboutimg} alt=""></img>
           </div>
         </div>
       </section>
