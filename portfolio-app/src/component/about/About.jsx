@@ -9,6 +9,9 @@ const About = () => {
           <h1>About me</h1>
         </div>
         <div className="about-container">
+          <div className="about-img">
+            <img src={aboutimg} alt=""></img>
+          </div>
           <div className="aboutcontent">
             <h2>
               I'm Tamilselvan and I'm a <span>Webdeveloper</span>{" "}
@@ -23,9 +26,6 @@ const About = () => {
               technology.
             </p>
             <button>Download CV</button>
-          </div>
-          <div className="about-img">
-            <img src={aboutimg} alt=""></img>
           </div>
         </div>
       </section>

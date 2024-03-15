@@ -59,7 +59,7 @@
 }
 @media (max-width: 900px) {
   .about-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .about-img img {
     width: 250px;

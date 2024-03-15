@@ -17,3 +17,6 @@
 .social-links a {
   padding-right: 0.3rem;
 }
+.social-links a:hover {
+  opacity: 0.7;
+}
